@@ -40,15 +40,15 @@ export default function Home() {
               About FNDP
             </li>
           </Link>
-          <li
-            href="https://www.nikunj.space/"
+         <Link  href="https://www.nikunj.space/" > <li
+           
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleLinkClick}
             className="hover:scale-110 transition-transform duration-200 cursor-pointer hover:text-blue-400"
           >
             Other Projects
-          </li>
+          </li></Link>
           <li
             href="https://buymeacoffee.com/nikunjmiglani"
             target="_blank"
@@ -107,24 +107,23 @@ export default function Home() {
               About FNDP
             </li>
           </Link>
-          <a
-            href="https://www.nikunj.space/"
+         <Link  href="https://www.nikunj.space/" >  <li
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleLinkClick}
             className="hover:text-blue-400  list-none transition-colors duration-200"
           >
             Other Projects
-          </a>
-          <a
-            href="https://buymeacoffee.com/nikunjmiglani"
+          </li></Link>
+         <Link href="https://buymeacoffee.com/nikunjmiglani" > <li
+            
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleLinkClick}
             className="hover:text-blue-400   list-none transition-colors duration-200"
           >
             Support Us
-          </a>
+          </li></Link>
           <Link
             href="https://github.com/Nikunjmiglani/FNDP---Fake-new-detector-project" target="/"
          
